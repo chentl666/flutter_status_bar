@@ -1,0 +1,2 @@
+# flutter_status_bar
+Flutter Plugin 帮您修改Android和iOS的状态栏颜色或导航栏颜色

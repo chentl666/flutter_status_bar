@@ -1,0 +1,22 @@
+name: flutter_status_bar
+description: Flutter Plugin 帮您修改Android和iOS的状态栏颜色或导航栏颜色
+version: 2.0.0
+homepage: https://github.com/chentl666/flutter_status_bar
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.ctl.flutterstatusbar
+        pluginClass: FlutterXStatusBarPlugin
+      ios:
+        pluginClass: FlutterXStatusBarPlugin
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.10.0"
+
